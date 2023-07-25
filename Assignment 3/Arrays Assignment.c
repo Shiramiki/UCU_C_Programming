@@ -26,7 +26,7 @@ int main() {
         printf("7. Search for a specific element in the array\n");
         printf("8. Exit the program\n");
         printf("Enter your choice: ");
-        scanf("%c", &choice);
+        scanf("%d", &choice);
 
         switch (choice) {
             case 1:
@@ -186,5 +186,5 @@ int searchElement(int arr[], int size, int element) {
             return i;
         }
     }
-    return -1;
+    
 }
